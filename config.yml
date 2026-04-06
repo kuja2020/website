@@ -18,7 +18,6 @@ collections:
       - { label: "President Name", name: "president_name", widget: "string" }
       - { label: "President Photo", name: "president_photo", widget: "image" }
       - { label: "President Profile", name: "president_profile", widget: "relation", collection: "profiles", search_fields: ["name"], value_field: "slug", display_fields: ["name"] }
-
       - { label: "GS Name", name: "gs_name", widget: "string" }
       - { label: "GS Photo", name: "gs_photo", widget: "image" }
       - { label: "GS Profile", name: "gs_profile", widget: "relation", collection: "profiles", search_fields: ["name"], value_field: "slug", display_fields: ["name"] }
