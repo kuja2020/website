@@ -1,9 +1,0 @@
-backend:
-  name: github
-  repo: kuja2020/kuja-website
-  branch: main
-
-media_folder: "assets/images/uploads"
-public_folder: "/assets/images/uploads"
-
-load_config_file: false
